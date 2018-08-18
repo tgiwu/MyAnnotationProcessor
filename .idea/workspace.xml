@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="726cbdc1-398f-46ae-80f7-2b8e4eaca6fb" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="myannotationprocess" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="myannotationprocess" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="myannotationprocess" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="myannotationprocess" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="myannotationprocess" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="upload" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="636805859">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="2" />
+          <entry key="gradle" value="60" />
+          <entry key="java" value="4129" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Groovy" value="60" />
+          <entry key="JAVA" value="4129" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Processor" value="1" />
+          <entry key="class" value="1" />
+          <entry key="html" value="1" />
+          <entry key="java" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="17" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="myannotationprocess" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhy/processor/InjectProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="94" column="104" lean-forward="true" selection-start-line="94" selection-start-column="104" selection-end-line="94" selection-end-column="104" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#writeLog#0;class#InjectProcessor#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.compiler/javax/annotation/processing/Filer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="269" column="71" lean-forward="true" selection-start-line="269" selection-start-column="71" selection-end-line="269" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.compiler/javax/tools/FileObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="28" column="114" lean-forward="true" selection-start-line="28" selection-start-column="114" selection-end-line="28" selection-end-column="114" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhy/processor/MyViewInjector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhy/processor/ProxyInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1588#1589#0" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
+                <element signature="e#2427#2428#0" expanded="true" />
+                <element signature="e#2461#2462#0" expanded="true" />
+                <element signature="e#2524#2525#0" expanded="true" />
+                <element signature="e#2570#2571#0" expanded="true" />
+                <element signature="e#2606#2607#0" expanded="true" />
+                <element signature="e#2637#2638#0" expanded="true" />
+                <element signature="e#2686#2687#0" expanded="true" />
+                <element signature="e#2726#2727#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhy/processor/Finder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-16">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhy/annotation/InjectView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" selection-start-column="8" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jar</find>
+      <find>$$</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4.9" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="myannotationprocess" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="myannotationprocess" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'myannotationprocess'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'myannotationprocess'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'myannotationprocess'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'myannotationprocess'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'myannotationprocess'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'myannotationprocess'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'myannotationprocess'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'myannotationprocess'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uploads all artifacts belonging to configuration ':archives'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="uploadArchives" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'myannotationprocess'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4603530270000" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="4192408038" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="458476213" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="myannotationprocess" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-model-groovy-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-kotlin-dsl-tooling-models-0.18.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-resources-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-tooling-api-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-kotlin-dsl-0.18.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-core-api-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/ant-1.9.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-cli-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-docs-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-persistent-cache-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-build-option-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/ant-launcher-1.9.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-messaging-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/groovy-all-2.4.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-jvm-services-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-launcher-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-base-services-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-kotlin-dsl-provider-plugins-0.18.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-kotlin-dsl-tooling-builders-0.18.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-model-core-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-core-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-installation-beacon-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-base-services-groovy-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-process-services-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-build-cache-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-runtime-api-info-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-native-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-logging-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-wrapper-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-platform-jvm-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-testing-base-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-testing-jvm-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-build-init-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-maven-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-resources-sftp-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-signing-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-resources-s3-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-code-quality-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-test-kit-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-ivy-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-osgi-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-language-groovy-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-language-java-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-antlr-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-reporting-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-platform-play-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-ide-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-resources-gcs-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-scala-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-resources-http-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-ear-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-publish-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-testing-junit-platform-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-composite-builds-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-dependency-management-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-testing-native-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-platform-base-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-language-jvm-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-plugin-development-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-diagnostics-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-ide-native-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-build-cache-http-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-workers-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-javascript-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-platform-native-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-jacoco-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-plugins-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-build-comparison-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-language-native-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-version-control-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-plugin-use-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-language-scala-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-ide-play-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-tooling-api-builders-4.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/plugins/gradle-announce-4.9.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/../butterknife" value="PREVIEW" />
+        <entry key="$USER_HOME$/StudioProjects/RxJava" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/zhy/MyProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhy/annotation/MyAnnotation.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/javax.annotation.processing.Processor" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhy/annotation/InjectView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhy/processor/MyProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhy/processor/ViewInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhy/processor/Finder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhy/processor/AbstractInjector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhy/processor/ViewInjector.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/services/javax.annotation.processing.Processor" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhy/processor/ProxyInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhy/processor/MyViewInjector.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhy/processor/InjectProcessor.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1671" />
+    <option name="y" value="-102" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhy" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhy" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhy" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhy" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="myannotationprocess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAnnotationProcessor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534565158283" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4392265" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/services" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MyTest.testGenerateCode">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyAnnotationProcessor [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="MyAnnotationProcessor [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="MyAnnotationProcessor [uploadArchives]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="uploadArchives" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="build (2)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="myannotationprocess" />
+      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.testGenerateCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myannotationprocess_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="testGenerateCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Groovy.build (2)" />
+      <item itemvalue="JUnit.MyTest.testGenerateCode" />
+      <item itemvalue="Gradle.MyAnnotationProcessor [clean]" />
+      <item itemvalue="Gradle.MyAnnotationProcessor [build]" />
+      <item itemvalue="Gradle.MyAnnotationProcessor [uploadArchives]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.testGenerateCode" />
+        <item itemvalue="Gradle.MyAnnotationProcessor [uploadArchives]" />
+        <item itemvalue="Gradle.MyAnnotationProcessor [build]" />
+        <item itemvalue="Gradle.MyAnnotationProcessor [clean]" />
+        <item itemvalue="Groovy.build (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="726cbdc1-398f-46ae-80f7-2b8e4eaca6fb" name="Default" comment="" />
+      <created>1534484577491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534484577491</updated>
+      <workItem from="1534484582222" duration="8327000" />
+      <workItem from="1534493647323" duration="2059000" />
+      <workItem from="1534495892999" duration="100000" />
+      <workItem from="1534496010946" duration="19284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MyTest_testGenerateCode - 2018.08.18 at 10h 14m 09s.xml">
+      <configuration name="MyTest.testGenerateCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_testGenerateCode - 2018.08.18 at 10h 22m 10s.xml">
+      <configuration name="MyTest.testGenerateCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_testGenerateCode - 2018.08.18 at 10h 27m 57s.xml">
+      <configuration name="MyTest.testGenerateCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_testGenerateCode - 2018.08.18 at 10h 35m 08s.xml">
+      <configuration name="MyTest.testGenerateCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_testGenerateCode - 2018.08.18 at 10h 41m 19s.xml">
+      <configuration name="MyTest.testGenerateCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_testGenerateCode - 2018.08.18 at 11h 00m 10s.xml">
+      <configuration name="MyTest.testGenerateCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_testGenerateCode - 2018.08.18 at 11h 11m 01s.xml">
+      <configuration name="MyTest.testGenerateCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_testGenerateCode - 2018.08.18 at 11h 13m 14s.xml">
+      <configuration name="MyTest.testGenerateCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_testGenerateCode - 2018.08.18 at 11h 15m 43s.xml">
+      <configuration name="MyTest.testGenerateCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_testGenerateCode - 2018.08.18 at 11h 24m 07s.xml">
+      <configuration name="MyTest.testGenerateCode" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29770000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1920" y="-157" width="1920" height="1057" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49904397" visible="true" weight="0.21991481" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.500956" side_tool="true" weight="0.32761088" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948717" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.88082904" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32642487" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32948717" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.17305644" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-compat/27.0.1/df3dabe358f5f29b02cd3eb182f0094fd43c7d53/support-compat-27.0.1.aar">
+      <provider selected="true" editor-type-id="apk-viewer" />
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-utils/27.0.1/810bdd1d47d61e537bba0c1252f92e5f564b1edc/support-core-utils-27.0.1.aar">
+      <provider selected="true" editor-type-id="apk-viewer" />
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/27.0.1/2fc21de3a59a1183bead10473a551e43c6af8cef/appcompat-v7-27.0.1.aar">
+      <provider selected="true" editor-type-id="apk-viewer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/services/javax.annotation.processing.Processor">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.compiler/javax/lang/model/element/TypeElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="100" column="33" lean-forward="true" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhy/processor/MyProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1313">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="309" column="50" selection-start-line="309" selection-start-column="50" selection-end-line="309" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhy/processor/ViewInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhy/processor/AbstractInjector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhy/processor/Finder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.testing.compile/compile-testing/0.15/a015740b5449cdd57b1c2597ef58ff1c3bddf616/compile-testing-0.15-sources.jar!/com/google/testing/compile/JavaFileObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="61" column="52" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.truth/truth/0.39/463cf0a980ab72e1ba1a911875ffbb3bd3522f50/truth-0.39-sources.jar!/com/google/common/truth/Truth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="120" column="44" selection-start-line="120" selection-start-column="44" selection-end-line="120" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhy/annotation/InjectView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="8" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3042" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/test/classes/MyTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#1586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.compiler/javax/annotation/processing/Messager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="71" column="73" lean-forward="true" selection-start-line="71" selection-start-column="73" selection-end-line="71" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.compiler/javax/annotation/processing/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="340" column="85" lean-forward="true" selection-start-line="340" selection-start-column="85" selection-end-line="340" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.compiler/javax/annotation/processing/AbstractProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="58" column="3" lean-forward="true" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="661" column="50" lean-forward="true" selection-start-line="661" selection-start-column="50" selection-end-line="661" selection-end-column="50" />
+          <folding>
+            <element signature="e#26290#26291#0" expanded="true" />
+            <element signature="e#26333#26334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.compiler/javax/tools/FileObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhy/processor/ProxyInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#2427#2428#0" expanded="true" />
+            <element signature="e#2461#2462#0" expanded="true" />
+            <element signature="e#2524#2525#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2606#2607#0" expanded="true" />
+            <element signature="e#2637#2638#0" expanded="true" />
+            <element signature="e#2686#2687#0" expanded="true" />
+            <element signature="e#2726#2727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhy/processor/MyViewInjector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="114" lean-forward="true" selection-start-line="28" selection-start-column="114" selection-end-line="28" selection-end-column="114" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.compiler/javax/annotation/processing/Filer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="269" column="71" lean-forward="true" selection-start-line="269" selection-start-column="71" selection-end-line="269" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhy/processor/InjectProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="94" column="104" lean-forward="true" selection-start-line="94" selection-start-column="104" selection-end-line="94" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#writeLog#0;class#InjectProcessor#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4392265" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4392265" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>myannotationprocess_test|myannotationprocess</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4392265" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: android.arch.core:common:1.0.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4392265" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
