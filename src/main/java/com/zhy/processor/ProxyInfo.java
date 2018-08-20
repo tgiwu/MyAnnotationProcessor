@@ -28,12 +28,10 @@ public class ProxyInfo {
         idViewMap.put(id, viewInfo);
     }
 
-    // fixme: I do not know how to generate code "class A<T extends B> implements AbstractInjector<T>" <br> .
-    //  fixme: So I can only generate ""class A<T> implements AbstractInjector<T>".
-    //  fixme: And then cast type T to type B
     TypeSpec generateJavaCodeWithPoet() {
+        TypeVariableName typeVariableName = TypeVariableName.get("T").withBounds(TypeVariableName.get(targetClassName));
         TypeSpec.Builder builder = TypeSpec.classBuilder(proxyClassName)
-                .addTypeVariable(TypeVariableName.get("T"))
+                .addTypeVariable(typeVariableName)
                 .addSuperinterface(ParameterizedTypeName.get(ClassName.get(AbstractInjector.class), TypeVariableName.get("T")))
                 .addModifiers(Modifier.PUBLIC)
                 .addMethod(generateMethodSpec());
@@ -52,17 +50,14 @@ public class ProxyInfo {
             builder.addStatement("finder.setContentView(sources, $L)", layoutId);
         }
 
-        builder.addStatement("$T view", View.class)
-                .beginControlFlow("if(target instanceof $L)", targetClassName)
-                .addStatement("$L t = ($L) target", targetClassName, targetClassName);
+        builder.addStatement("$T view", View.class);
 
         for (Integer key : idViewMap.keySet()) {
             ViewInfo viewInfo = idViewMap.get(key);
             builder.addStatement("view = finder.findViewById(source, $L)", viewInfo.getId())
-                    .addStatement("t.$L = finder.castView(view, $L, $S)", viewInfo.getName(), viewInfo.getId(), viewInfo.getName());
+                    .addStatement("target.$L = finder.castView(view, $L, $S)", viewInfo.getName(), viewInfo.getId(), viewInfo.getName());
 
         }
-        builder.endControlFlow();
         return builder.build();
     }
 

@@ -27,17 +27,14 @@ public class MyTest {
                                 "import java.lang.Object;\n" +
                                 "import java.lang.Override;\n" +
                                 "\n" +
-                                "public class Test_PROXY<T> implements AbstractInjector<T> { \n" +
+                                "public class Test_PROXY<T extends Test> implements AbstractInjector<T> { \n" +
                                 "    @Override \n" +
                                 "    public void inject(final Finder finder, final T target, Object source) {\n" +
                                 "        View view;\n" +
-                                "        if(target instanceof Test) {\n" +
-                                "            Test t = (Test) target;\n" +
-                                "            view = finder.findViewById( source, 1);\n" +
-                                "            t.thing = finder.castView(view, 1, \"thing\" );   \n " +
-                                "            view = finder.findViewById( source, 2);\n" +
-                                "            t.th = finder.castView(view, 2, \"th\" );    \n" +
-                                "        }\n" +
+                                "        view = finder.findViewById( source, 1);\n" +
+                                "        target.thing = finder.castView(view, 1, \"thing\" );   \n " +
+                                "        view = finder.findViewById( source, 2);\n" +
+                                "        target.th = finder.castView(view, 2, \"th\" );    \n" +
                                 "    }\n" +
                                 "}");
 
