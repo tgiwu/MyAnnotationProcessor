@@ -16,27 +16,35 @@ public class MyTest {
                         + "import com.zhy.annotation.InjectView;\n"
                         + "public class Test {\n"
                         + "    @InjectView(1) View thing;\n"
+                        + "    @InjectView(2) View th;\n"
                         + "}");
         JavaFileObject bindResource = JavaFileObjects.forSourceString("test/Test_PROXY",
                         "package test; \n" +
                                 "\n" +
                                 "import android.view.View;\n" +
+                               "import com.zhy.processor.AbstractInjector;\n" +
                                 "import com.zhy.processor.Finder;\n" +
-                                "import com.zhy.processor.AbstractInjector;\n" +
+                                "import java.lang.Object;\n" +
+                                "import java.lang.Override;\n" +
                                 "\n" +
-                                "public class Test_PROXY<T extends Test> implements AbstractInjector<T> { \n" +
+                                "public class Test_PROXY<T> implements AbstractInjector<T> { \n" +
                                 "    @Override \n" +
                                 "    public void inject(final Finder finder, final T target, Object source) {\n" +
                                 "        View view;\n" +
-                                "        view = finder.findViewById( source, 1);\n" +
-                                "        target.thing = finder.castView(view, 1, \"thing\" );    }\n" +
-                                "\n" +
+                                "        if(target instanceof Test) {\n" +
+                                "            Test t = (Test) target;\n" +
+                                "            view = finder.findViewById( source, 1);\n" +
+                                "            t.thing = finder.castView(view, 1, \"thing\" );   \n " +
+                                "            view = finder.findViewById( source, 2);\n" +
+                                "            t.th = finder.castView(view, 2, \"th\" );    \n" +
+                                "        }\n" +
+                                "    }\n" +
                                 "}");
 
             assertAbout(javaSource()).that(source)
                     .withCompilerOptions("-Xlint:-processing")
                     .processedWith(new InjectProcessor())
-                    .compilesWithoutWarnings()
+                    .compilesWithoutError()
                     .and()
                     .generatesSources(bindResource);
 

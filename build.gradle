@@ -1,10 +1,12 @@
 apply plugin: 'java'
 apply plugin: 'maven'
+apply plugin: 'java-library'
 
 group 'com.zhy'
-version '1.4'
+version '1.9'
 
-sourceCompatibility = 1.8
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
     mavenCentral()
@@ -14,15 +16,23 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+
     implementation 'com.android.support:support-compat:27.0.1'
-    implementation 'com.android.tools.build:gradle:3.1.0-alpha09'
+//    implementation 'com.android.tools.build:gradle:3.1.0-alpha09'
+
+    testImplementation 'com.android.support.test:runner:1.0.1'
+    implementation 'com.android.support:support-annotations:27.0.1'
+
+//    implementation 'com.android.tools.build:gradle:3.1.0-alpha09'
     implementation 'com.google.android:android:4.1.1.4'
-    testCompile 'com.google.testing.compile:compile-testing:0.15'
-    testCompile 'com.google.truth:truth:0.39'
-    testCompile 'com.android.support.test:runner:1.0.1'
-    testCompile 'com.google.auto:auto-common:0.10'
-    testCompile 'com.google.auto.service:auto-service:1.0-rc4'
-    testCompile 'com.google.guava:guava:24.0-jre'
+    testImplementation 'com.google.testing.compile:compile-testing:0.15'
+    testImplementation 'com.google.truth:truth:0.39'
+
+    implementation 'com.google.auto:auto-common:0.10'
+    implementation 'com.google.auto.service:auto-service:1.0-rc4'
+//    implementation 'com.google.guava:guava:24.0-jre'
+    implementation 'com.squareup:javapoet:1.11.1'
+
 }
 
 uploadArchives{

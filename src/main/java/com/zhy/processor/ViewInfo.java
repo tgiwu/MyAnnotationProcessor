@@ -5,13 +5,13 @@ public class ViewInfo {
     private String name;
     private String type;
 
-    public ViewInfo(int id, String name, String type) {
+    ViewInfo(int id, String name, String type) {
         this.id = id;
         this.name = name;
         this.type = type;
     }
 
-    public int getId() {
+    int getId() {
         return id;
     }
 
@@ -19,7 +19,7 @@ public class ViewInfo {
         this.id = id;
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 

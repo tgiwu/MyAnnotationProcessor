@@ -26,7 +26,7 @@ public class MyViewInjector {
         AbstractInjector<Object> injector = INJECTORS.get(clazz);
         if (injector == null) {
             try {
-                Class injectorClazz = Class.forName(clazz.getName() + "_" + ProxyInfo.PROXY);
+                Class injectorClazz = Class.forName(clazz.getName() + Constant.PROXY_SUFF);
                 injector = (AbstractInjector<Object>) injectorClazz.newInstance();
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();

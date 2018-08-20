@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+  <info organisation="com.zhy" module="myannotationprocess" revision="1.9" status="integration" publication="20180820112541"/>
+  <configurations>
+    <conf name="annotationProcessor" visibility="private"/>
+    <conf name="api" visibility="private" extends="compile"/>
+    <conf name="apiElements" visibility="private" extends="api,runtime"/>
+    <conf name="archives" visibility="public"/>
+    <conf name="compile" visibility="private"/>
+    <conf name="compileClasspath" visibility="private" extends="compileOnly,implementation"/>
+    <conf name="compileOnly" visibility="private"/>
+    <conf name="default" visibility="public" extends="runtimeElements"/>
+    <conf name="implementation" visibility="private" extends="api,compile"/>
+    <conf name="runtime" visibility="private" extends="compile"/>
+    <conf name="runtimeClasspath" visibility="private" extends="implementation,runtime,runtimeOnly"/>
+    <conf name="runtimeElements" visibility="private" extends="implementation,runtime,runtimeOnly"/>
+    <conf name="runtimeOnly" visibility="private"/>
+    <conf name="testAnnotationProcessor" visibility="private"/>
+    <conf name="testCompile" visibility="private" extends="compile"/>
+    <conf name="testCompileClasspath" visibility="private" extends="testCompileOnly,testImplementation"/>
+    <conf name="testCompileOnly" visibility="private"/>
+    <conf name="testImplementation" visibility="private" extends="implementation,testCompile"/>
+    <conf name="testRuntime" visibility="private" extends="runtime,testCompile"/>
+    <conf name="testRuntimeClasspath" visibility="private" extends="testImplementation,testRuntime,testRuntimeOnly"/>
+    <conf name="testRuntimeOnly" visibility="private" extends="runtimeOnly"/>
+  </configurations>
+  <publications>
+    <artifact name="myannotationprocess" type="jar" ext="jar" conf="apiElements,archives,runtime,runtimeElements"/>
+  </publications>
+  <dependencies>
+    <dependency org="com.android.support" name="support-compat" rev="27.0.1" conf="implementation-&gt;default"/>
+    <dependency org="com.android.support" name="support-annotations" rev="27.0.1" conf="implementation-&gt;default"/>
+    <dependency org="com.google.android" name="android" rev="4.1.1.4" conf="implementation-&gt;default"/>
+    <dependency org="com.google.auto" name="auto-common" rev="0.10" conf="implementation-&gt;default"/>
+    <dependency org="com.google.auto.service" name="auto-service" rev="1.0-rc4" conf="implementation-&gt;default"/>
+    <dependency org="com.squareup" name="javapoet" rev="1.11.1" conf="implementation-&gt;default"/>
+    <dependency org="junit" name="junit" rev="4.12" conf="testCompile-&gt;default"/>
+    <dependency org="com.android.support.test" name="runner" rev="1.0.1" conf="testImplementation-&gt;default"/>
+    <dependency org="com.google.testing.compile" name="compile-testing" rev="0.15" conf="testImplementation-&gt;default"/>
+    <dependency org="com.google.truth" name="truth" rev="0.39" conf="testImplementation-&gt;default"/>
+  </dependencies>
+</ivy-module>

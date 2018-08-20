@@ -1,6 +1,6 @@
 package com.zhy.processor;
 
-import com.squareup.javawriter.JavaWriter;
+import com.squareup.javapoet.JavaFile;
 import com.zhy.annotation.InjectView;
 
 import javax.annotation.processing.*;
@@ -11,7 +11,6 @@ import javax.tools.Diagnostic;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.Writer;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -21,6 +20,7 @@ import java.util.Set;
 public class InjectProcessor extends AbstractProcessor {
     private Map<String, ProxyInfo> mProxyMap = new HashMap<>();
     private Elements elementUtils;
+    private int count = 0;
 
     @Override
     public synchronized void init(ProcessingEnvironment processingEnv) {
@@ -31,32 +31,13 @@ public class InjectProcessor extends AbstractProcessor {
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
 
-        String fqClassName, className, packageName;
+        processingEnv.getMessager().printMessage(Diagnostic.Kind.NOTE, "" + (count++));
+        String fqClassName, className, packageName = "";
 
         for (Element element : roundEnv.getElementsAnnotatedWith(InjectView.class)) {
             processingEnv.getMessager().printMessage(Diagnostic.Kind.NOTE, "ele = " + element);
 
-            if (element.getKind() == ElementKind.CLASS) {
-                TypeElement classElement = (TypeElement) element;
-                PackageElement packageElement = (PackageElement) element.getEnclosingElement();
-                fqClassName = classElement.getQualifiedName().toString();
-                className = classElement.getSimpleName().toString();
-                packageName = packageElement.getQualifiedName().toString();
-
-                int layoutId = classElement.getAnnotation(InjectView.class).value();
-
-                ProxyInfo proxyInfo= mProxyMap.get(fqClassName);
-                if (proxyInfo != null) {
-                    proxyInfo.setLayoutId(layoutId);
-                } else {
-                    proxyInfo = new ProxyInfo(packageName, className);
-                    proxyInfo.setTypeElement(classElement);
-                    proxyInfo.setLayoutId(layoutId);
-                    mProxyMap.put(fqClassName, proxyInfo);
-                }
-                processingEnv.getMessager().printMessage(Diagnostic.Kind.NOTE, "annotated class : " + packageName + ", className = " + className + ", fqClassName = " + fqClassName);
-
-            } else if (element.getKind() == ElementKind.FIELD){
+            if (element.getKind() == ElementKind.FIELD){
                 VariableElement variableElement = (VariableElement) element;
 
                 TypeElement classElement = (TypeElement) element.getEnclosingElement();
@@ -83,26 +64,21 @@ public class InjectProcessor extends AbstractProcessor {
             }
         }
 
+        //generate code by iProxyMap
         for (String key : mProxyMap.keySet()) {
             ProxyInfo proxyInfo = mProxyMap.get(key);
-            Writer writer = null;
             try {
-                writer = processingEnv.getFiler().createSourceFile(proxyInfo.getProxyClassFullName(), proxyInfo.getTypeElement()).openWriter();
-//                JavaWriter javaWriter = new JavaWriter(writer);
-//                javaWriter.
-                writer.write(proxyInfo.generateJavaCode());
+                JavaFile javaFile = JavaFile.builder(packageName, proxyInfo.generateJavaCodeWithPoet()).build();
+                javaFile.writeTo(processingEnv.getFiler());
             } catch (IOException e) {
                 error(proxyInfo.getTypeElement(), "%s: %s", proxyInfo.getTypeElement(), e.getMessage());
-            } finally {
-                if (null != writer) {
-                    try {
-                        writer.close();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
             }
         }
+
+        //DO NOT forget clear Map .
+        //if not it will throw an IOException when generate code
+        //cause method process will be called more than one time
+        if (!mProxyMap.isEmpty()) mProxyMap.clear();
 
         return true;
     }
@@ -115,7 +91,7 @@ public class InjectProcessor extends AbstractProcessor {
     private void writeLog(String str) {
         FileWriter fileWriter = null;
         try {
-            fileWriter = new FileWriter(new File("/Users/yangzhang/IdeaProjects/generateFiles", "process.txt"), true);
+            fileWriter = new FileWriter(new File(Constant.LOG_PATH), true);
             fileWriter.write(str + "\n");
             fileWriter.flush();
         } catch (IOException e) {
